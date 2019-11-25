@@ -23,6 +23,7 @@ $(document).ready(function() {
 	check();
 	setTimeout(check, 2000);
 });
+
 function check() {
 	engapp.screensize = viewport.current()+" "+$(window).width()+"*"+$(window).height();	
 	$('body').removeClass('xs sm md lg').addClass(viewport.current());

@@ -17,6 +17,7 @@ var initialLoad = [
 	"js/wait.js",
 
 	"js/engapp-lib.js",
+	"js/engapp-rest.js",
 
 //	"libs/ie10-viewport-bug-workaround.css",
 //	"libs/ie10-viewport-bug-workaround.js",
@@ -27,6 +28,7 @@ var initialLoad = [
 
 	"css/main.css",
 	
+	"libs/resilient.js",
 	"libs/moment.min.js",
 	"libs/moment.locale.it.js",
 	"libs/mousetrap.js",
