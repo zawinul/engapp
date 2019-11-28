@@ -66,6 +66,8 @@
 	
 		client.useHttpClient(function httpProxy(options, cb) {
 			options = userHelper.preInvio(options);
+			//options.jsonp= "callback";
+			//options.dataType= "jsonp";
 			options.success = function (data, status, xhr) {
 				cb(null, { status: xhr.status, data: data, xhr: xhr })
 			};
